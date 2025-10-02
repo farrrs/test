@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
   background: linear-gradient(135deg, #ffe6f0, #ffd1e8);
   display: flex;
+  font-family: 'Comic Neue', 'Quicksand', sans-serif;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -77,12 +77,12 @@ h2 {
 
 /* Text */
 p {
-  font-size: 1rem;
+  font-size: 1,5rem;
   color: #333;
   line-height: 1.5;
   background: rgba(255, 204, 229, 0.5);
-  padding: 12px;
-  border-radius: 12px;
+  padding: 15px;
+  border-radius: 10px;
   margin: 15px 0;
   word-wrap: break-word;
 }
@@ -240,11 +240,11 @@ button:disabled {
 /* Responsif HP */
 @media (max-width: 480px) {
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   p {
-    font-size: 0.95rem;
+    font-size: 1,0rem;
   }
 
   .sticker img {
