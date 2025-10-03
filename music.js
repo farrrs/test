@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (bgMusic) {
     // Set volume kecil (0.1 = 10%)
-    bgMusic.volume = 0.1;
+    bgMusic.volume = 0.5;
   }
 });
+
